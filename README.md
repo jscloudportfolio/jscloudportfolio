@@ -25,14 +25,23 @@ I created and hosted a static website on Github. I then pointed the site to my C
 **STEPS BREAKDOWN**
 
 **1.** Created a github repository and set it to 'public'. Link to my public github repository online that I will use for future projects after this one: js cloud portfolio.github.io
+
 **2.** Created a simple static blog website using githubs "Pages" feature on the repository. (I learned that Github Pages uses Jekyll as the backend for its free website creation service. I was trying to write with html and spent an hour figuring out how to write in Jekyll and get the code to run!:-)!
+
 **3.** Created a free Cloudflare account at https://www.cloudflare.com/plans/free/  **(woohoo!⚡)**
+
 **4.** Registered the Domain - jstechportfolio.com ($10.44 per year)
+
 **5.** Went into the settings of my Github Pages blog site and found the 'custom domain section' which provided me with the 4 IP Address that I needed to point Cloudflare to.
+
 **6.** Returned to Cloudflare domain dashboard to update my DNS settings for jstechportfolio.com
+
 **7.** Created 5 DNS records (4 "A"  records for the github IP Addresses, 1 "CNAME" record for www.jsloudportfolio.github.io - note: jscloudportfolio is my github username)
-**8.** Saved each record.
-**9.** Went back to github to run a DNS Check within the settings tab. Status: "DNS Check Successful"
+
+**8.** Saved each record
+
+**9.** Went back to github to run a DNS Check within the settings tab. Status: **"DNS Check Successful"**
+
 **10.** I confirmed my DNS updates have taken effect via this DNS Lookup Tool - - https://dnschecker.org/#A/www.jstechportfolio.com- https://dnschecker.org/all-dns-records-of-domain.php?query=www.jstechportfolio.com%2F&rtype=ALL&dns=google
 
 **Notes:** 
